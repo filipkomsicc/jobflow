@@ -43,7 +43,7 @@ const Navbar = ({ setView }: { setView: (view: 'home' | 'privacy' | 'terms') => 
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center cursor-pointer" onClick={() => setView('home')}>
             <img
-                src="jobflow-logo-transparent.png"
+                src="./jobflow-logo-transparent.png"
               alt="JobFlowCrew Logo"
               className="h-10 w-auto"
               referrerPolicy="no-referrer"
@@ -365,7 +365,7 @@ export default function App() {
                 <div className="flex flex-col md:flex-row gap-12 items-center">
                   <div className="rounded-2xl bg-zinc-100 flex-shrink-0 overflow-hidden self-stretch md:w-1/2">
                     <img
-                      src="src/public/filip-founder.jpeg"
+                      src="./filip-founder.jpeg"
                       alt="Founder"
                       className="w-full h-full object-cover"
                       referrerPolicy="no-referrer"
@@ -531,19 +531,19 @@ export default function App() {
       quote: "Before JobFlowCrew, most leads felt like a waste of time. Now I’m talking to people who already know what they want. My calendar finally feels consistent.",
       name: "Mark Rogers",
       role: "MarkRemodels",
-      image: "src/public/mark.jpg" // put file in /public
+      image: "./mark.jpg" // put file in /public
     },
     {
       quote: "I used to spend hours chasing messages. Now the estimates are already lined up. I just show up and do what I do best.",
       name: "Daniel Brooks",
       role: "GreatConstruction Group",
-      image: "src/public/daniel.jpg"
+      image: "./daniel.jpg"
     },
     {
       quote: "It feels less like marketing and more like having someone keeping the pipeline moving behind the scenes.",
       name: "Anthony Miller",
       role: "General Contractor",
-      image: "src/public/anthony.jpg" // leave empty to fallback to grey circle
+      image: "./anthony.jpg" // leave empty to fallback to grey circle
     }
   ].map((testimonial, i) => (
     <div key={i} className="p-8 rounded-3xl bg-zinc-50 border border-zinc-100 relative">
@@ -701,7 +701,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-8 md:mb-0">
               <img
-                src="src/img/jobflow-logo-transparent.png"
+                src="./jobflow-logo-transparent.png"
                 alt="JobFlowCrew Logo"
                 className="h-8 w-auto mb-4"
                 referrerPolicy="no-referrer"
