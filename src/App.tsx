@@ -186,7 +186,7 @@ export default function App() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
               <img
-                src="remodel.jpg"
+                src="./remodel.jpg"
 		  className="w-full h-full object-cover"
 
                 alt="Modern Remodel Background"
