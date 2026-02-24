@@ -185,7 +185,7 @@ export default function App() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
               <img
-                src="src/public/remodel.jpg"
+                src="./public/remodel.jpg"
                 // src="src/img/jobflow-logo-transparent.png"
 		  className="w-full h-full object-cover"
 
