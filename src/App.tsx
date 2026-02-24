@@ -24,6 +24,7 @@ import Cal, { getCalApi } from "@calcom/embed-react";
 import ReactMarkdown from "react-markdown";
 import privacyPolicy from "./content/privacy-policy.md?raw";
 import termsofService from "./content/terms-of-service.md?raw";
+import remodel from './public/remodel.jpg';
 
 const Navbar = ({ setView }: { setView: (view: 'home' | 'privacy' | 'terms') => void }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +43,7 @@ const Navbar = ({ setView }: { setView: (view: 'home' | 'privacy' | 'terms') => 
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center cursor-pointer" onClick={() => setView('home')}>
             <img
-                src="src/img/jobflow-logo-transparent.png"
+                src="jobflow-logo-transparent.png"
               alt="JobFlowCrew Logo"
               className="h-10 w-auto"
               referrerPolicy="no-referrer"
@@ -185,8 +186,7 @@ export default function App() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
               <img
-                src="public/remodel.jpg"
-                // src="src/img/jobflow-logo-transparent.png"
+                src="remodel.jpg"
 		  className="w-full h-full object-cover"
 
                 alt="Modern Remodel Background"
