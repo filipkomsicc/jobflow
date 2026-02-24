@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #e87a00;
+  --color-brand-light: #fff7ed;
+  --color-brand-dark: #c2410c;
+}
+
+body {
+  @apply overflow-x-hidden;
+}
